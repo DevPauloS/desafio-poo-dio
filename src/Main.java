@@ -40,6 +40,7 @@ public class Main {
         listaConteudosInscritos.forEach(l -> System.out.println(l.getClass().getSimpleName()+": " + l.getTitulo() + "   |   " + "Descrição: " + l.getDescricao() + "   |   XP: " + l.calcularXp()));
 
         devCamila.progredir();
+        devCamila.progredir();
 
         System.out.println("---------------------CONTEUDOS INSCRITOS APÓS O PROGREDIR---------------------");
         listaConteudosInscritos.forEach(l -> System.out.println(l.getClass().getSimpleName()+": " + l.getTitulo() + "   |   " + "Descrição: " + l.getDescricao() + "   |   XP: " + l.calcularXp()));
